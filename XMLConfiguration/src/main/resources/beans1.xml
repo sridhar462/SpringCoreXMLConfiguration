@@ -7,7 +7,6 @@
 	<bean id="employee"
 		class="com.learnfromexamples.springcore.modal.Employee">
 		<property name="empName" value="Sridharan N"/>
-		
 	</bean>
 
 </beans> 
