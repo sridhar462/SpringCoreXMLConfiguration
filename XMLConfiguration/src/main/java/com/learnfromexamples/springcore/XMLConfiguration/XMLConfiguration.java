@@ -15,5 +15,12 @@ public class XMLConfiguration {
 		Employee employee = ctx.getBean(Employee.class);
 
 		System.out.println(employee);
+		
+		// Getting the bean using name specified in the beans1.xml
+		
+		Employee emp = (Employee) ctx.getBean("employee");
+		
+		System.out.println(emp);
+		
 	}
 }

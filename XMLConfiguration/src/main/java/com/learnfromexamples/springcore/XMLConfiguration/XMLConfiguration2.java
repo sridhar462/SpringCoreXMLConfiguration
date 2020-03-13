@@ -20,5 +20,10 @@ public class XMLConfiguration2 {
 		
 		Department dept = ctx.getBean(Department.class);
 		System.out.println(dept.getDeptName());
+		
+		
+		Company company2 = (Company) ctx.getBean("company");
+		System.out.println(company2.getCompanyName());
+		
 	}
 }
