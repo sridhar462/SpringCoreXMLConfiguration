@@ -16,5 +16,9 @@ public class XMLConfiguration3SI {
 
 		app.getShare().send();
 
+		GalleryApp app1 = (GalleryApp)ctx.getBean("galley");
+
+		app1.getShare().send();
+
 	}
 }
