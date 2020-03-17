@@ -17,7 +17,6 @@ public class XMLConfiguration2 {
 
 		System.out.println(company.getCompanyName());
 		
-		
 		Department dept = ctx.getBean(Department.class);
 		System.out.println(dept.getDeptName());
 		
