@@ -14,7 +14,8 @@ public class XMLConfiguration5CI2 {
 
 		Employee app = ctx.getBean(Employee.class); // Spring automatically checks the data type and map as per data
 													// type. // if both address and age we specified as int value, then
-													// based on the order spring fills it
+													// based on the order spring fills it // 
+				// above stmt is wrong
 
 		System.out.println(app);
 

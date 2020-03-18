@@ -5,9 +5,6 @@ public class Employee {
 	private int age;
 	private String address;
 
-	
-	
-
 	public Employee(String empName, int age, String address) {
 		this.empName = empName;
 		this.age = age;
